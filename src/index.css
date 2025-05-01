@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
     margin: 0;
     padding: 0;
@@ -34,55 +36,9 @@
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    border: 1px #EFEFEF solid;
-    box-shadow: var(--sds-size-depth-0) var(--sds-size-depth-025) var(--sds-size-depth-100) var(--sds-size-depth-0) var(--sds-color-black-100);
     padding: 20px;
-    border-radius: 8px;
-    gap: 16px;
 
     .profile {
-        display: flex;
-        gap: 16px;
-        align-items: center;
-        border-bottom: 1px #D3D3D3 solid;
         padding-bottom: 12px;
-
-        p {
-            font-weight: 500;
-            font-size: 20px;
-        }
-
-        img {
-            width: 64px;
-            border-radius: 100%;
-        }
-    }
-
-    .desc {
-        display: flex;
-        gap: 48px;
-
-        .icon {
-            width: 16px;
-        }
-
-        .almt {
-            display: flex;
-            gap: 12px;
-            align-items: center;
-            max-width: 260px;
-            width: 100%;
-        }
-
-        .wa {
-            display: flex;
-            gap: 12px;
-            
-            p {
-              color: #007AFF;
-            }
-        }
     }
 }
