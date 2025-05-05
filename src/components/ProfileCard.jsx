@@ -23,7 +23,7 @@ export default function ProfileCard({ name, address, phone, pfp, bestFriend }) {
 
         <div className="flex gap-3">
           <img src="/icons/ic-whatsapp.svg" className="icon w-5 h-5" />
-          <a href={`https://wa.me/${phone}`} className="text-[#007AFF]">
+          <a href={`https://wa.me/${phone}`} target="_blank" className="text-[#007AFF]">
             {phone}
           </a>
         </div>
